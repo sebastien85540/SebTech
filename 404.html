@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page introuvable | SebTech Internet Web & Cloud</title>
+    <meta
+      name="description"
+      content="La page demandee est introuvable. Retournez a l'accueil de SebTech Internet Web & Cloud."
+    />
+    <link rel="icon" type="image/png" href="assets/logo-sebtech.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="container header-inner">
+          <a class="brand" href="index.html">
+            <img class="brand-logo" src="assets/logo-sebtech.png" alt="Logo SebTech Internet Web & Cloud" />
+            <span class="brand-copy">
+              <strong>SebTech Internet Web & Cloud</strong>
+              <small>Web, applications, DevOps, assistance et formation informatique</small>
+            </span>
+          </a>
+          <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Ouvrir le menu">
+            <span></span>
+            <span></span>
+          </button>
+          <nav class="site-nav" aria-label="Navigation principale">
+            <a href="index.html">Accueil</a>
+            <a href="prestations.html">Prestations</a>
+            <a href="a-propos.html">À propos</a>
+            <a href="contact.html">Contact</a>
+            <a class="button button-small" href="index.html"><i class="bi bi-house-fill"></i>Retour à l'accueil</a>
+          </nav>
+        </div>
+      </header>
+
+      <main class="error-page section">
+        <div class="container">
+          <div class="card error-shell reveal is-visible">
+            <p class="error-code">404</p>
+            <p class="eyebrow">Page introuvable</p>
+            <h1>La page que vous cherchez n'existe pas ou n'est plus disponible.</h1>
+            <p class="lead narrow">
+              Vous pouvez revenir à l'accueil pour retrouver les prestations, les informations de contact
+              et les projets accompagnés par SebTech Internet Web & Cloud.
+            </p>
+            <div class="error-actions">
+              <a class="button" href="index.html"><i class="bi bi-house-fill"></i>Retour à l'accueil</a>
+              <a class="button button-ghost" href="contact.html"><i class="bi bi-envelope-fill"></i>Me contacter</a>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-grid">
+          <div>
+            <strong>SebTech Internet Web & Cloud</strong>
+            <p>Développement web, applications, DevOps et assistance informatique.</p>
+          </div>
+          <div>
+            <a href="prestations.html">Prestations</a>
+            <a href="a-propos.html">À propos</a>
+            <a href="contact.html">Contact</a>
+            <a href="mentions-legales.html">Mentions légales</a>
+          </div>
+          <div>
+            <a href="mailto:sebastien.reynaud.pro@outlook.fr">sebastien.reynaud.pro@outlook.fr</a>
+            <p>Haute-Corrèze, France</p>
+            <p>&copy; <span data-year></span> SebTech Internet Web & Cloud</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,130 @@
+{
+  "project": {
+    "name": "SebTech Internet Web & Cloud",
+    "description": "Site vitrine professionnel de Sébastien Reynaud, développeur d'applications, développeur web, DevOps et expert informatique basé en Haute-Corrèze, intervenant en France entière en remote.",
+    "language": "fr",
+    "future_languages": ["en"],
+    "version": "1.0.0"
+  },
+
+  "hosting": {
+    "provider": "GitHub Pages",
+    "repository_structure": {
+      "branch": "main",
+      "root": "/",
+      "build": "none (site statique pur)"
+    },
+    "https": true
+  },
+
+  "architecture": {
+    "type": "static",
+    "technologies": {
+      "frontend": ["HTML5", "CSS3", "JavaScript ES6"],
+      "animations": ["AOS", "GSAP"],
+      "forms": ["Formspree"],
+      "icons": ["FontAwesome"]
+    },
+    "backend": "none",
+    "security": {
+      "csrf": "not required",
+      "xss": "static content only",
+      "ddos": "handled by GitHub infrastructure",
+      "recommendations": ["Cloudflare proxy optional"]
+    }
+  },
+
+  "design": {
+    "palette": {
+      "primary": "#6CA6E8",
+      "secondary": "#1F2A44",
+      "background": "#F5F7FA",
+      "surface": "#D9DFE7",
+      "accent1": "#A78BFA",
+      "accent2": "#7ED6A5"
+    },
+    "typography": {
+      "titles": "Poppins, sans-serif",
+      "body": "Inter, sans-serif"
+    },
+    "style": {
+      "rounded_corners": true,
+      "soft_shadows": true,
+      "animations": "subtiles, non intrusives"
+    }
+  },
+
+  "seo": {
+    "target": ["Haute-Corrèze", "France entière (remote)", "développement web", "développement d'applications", "DevOps", "dépannage informatique"],
+    "meta": {
+      "title": "SebTech Internet Web & Cloud – Développeur d'applications & expert informatique",
+      "description": "Développeur d'applications, développeur web, DevOps et expert informatique en Haute-Corrèze. Dépannage, montage PC, installation imprimantes, développement web et applications en France entière.",
+      "keywords": ["développeur web", "développeur application", "DevOps", "dépannage informatique", "Haute-Corrèze", "freelance informatique"]
+    },
+    "technical": {
+      "sitemap": true,
+      "robots": true,
+      "structured_data": "LocalBusiness + Person",
+      "performance": "Lighthouse 95+"
+    }
+  },
+
+  "pages": {
+    "home": {
+      "url": "/index.html",
+      "sections": [
+        "hero",
+        "services_overview",
+        "why_choose_me",
+        "zones_intervention",
+        "cta_contact"
+      ]
+    },
+    "prestations": {
+      "url": "/prestations.html",
+      "services": [
+        "Développement Web",
+        "Développement d'applications",
+        "DevOps & serveurs",
+        "Dépannage informatique",
+        "Montage PC",
+        "Installation imprimantes & réseau"
+      ]
+    },
+    "about": {
+      "url": "/a-propos.html",
+      "content": [
+        "parcours",
+        "valeurs",
+        "technologies",
+        "expérience",
+        "photo_optionnelle"
+      ]
+    },
+    "contact": {
+      "url": "/contact.html",
+      "methods": {
+        "email": "sebastien.reynaud.pro@outlook.fr",
+        "form": "Formspree",
+        "linkedin": "optionnel",
+        "github": "optionnel",
+        "whatsapp_business": "optionnel",
+        "calendly": "optionnel"
+      }
+    },
+    "legal": {
+      "url": "/mentions-legales.html",
+      "includes": ["mentions légales", "politique de confidentialité", "RGPD"]
+    }
+  },
+
+  "goals": {
+    "primary": "Attirer des clients en développement web, applications, DevOps et dépannage informatique.",
+    "secondary": [
+      "Renforcer la crédibilité professionnelle",
+      "Présenter clairement les prestations",
+      "Faciliter la prise de contact",
+      "Optimiser le référencement local et national"
+    ]
+  }
+}
